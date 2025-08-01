@@ -70,7 +70,7 @@ export default function Testimonials() {
 
               {/* 评价内容 */}
               <blockquote className="text-2xl md:text-3xl font-light text-gray-800 leading-relaxed mb-8 italic">
-                "{testimonials[currentTestimonial].comment}"
+                &ldquo;{testimonials[currentTestimonial].comment}&rdquo;
               </blockquote>
 
               {/* 客户信息 */}

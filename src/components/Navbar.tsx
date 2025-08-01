@@ -33,7 +33,7 @@ export default function Navbar() {
   useEffect(() => {
     const currentLanguage = languages.find(lang => lang.code === locale) || languages[0]
     setCurrentLang(currentLanguage)
-  }, [locale])
+  }, [locale, languages])
 
   const handleLanguageChange = (langCode: string) => {
     const newPath = pathname.replace(`/${locale}`, `/${langCode}`)

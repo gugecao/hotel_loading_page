@@ -12,7 +12,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
   
   // 如果locale无效，使用默认语言
-  if (!locale || !locales.includes(locale as any)) {
+  if (!locale || !locales.includes(locale as Locale)) {
     locale = 'zh';
   }
   
