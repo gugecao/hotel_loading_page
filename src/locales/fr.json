@@ -1,0 +1,136 @@
+{
+  "navbar": {
+    "productAdvantages": "Avantages Produit",
+    "solutions": "Solutions",
+    "customerCases": "Cas Clients",
+    "aboutUs": "À Propos",
+    "partnerLogin": "Connexion Partenaire"
+  },
+  "hero": {
+    "title": "Révolutionner la Distribution Hôtelière Mondiale",
+    "subtitle": "Connectez-vous avec des partenaires hôteliers dans plus de 180 pays et régions grâce à une technologie de pointe, des insights de données et un réseau mondial inégalé. Transformez la façon dont les hôtels se connectent aux voyageurs.",
+    "ctaButton": "Explorer les Avantages Clés",
+    "statsCountries": "Pays et Régions",
+    "statsHotels": "Hôtels Partenaires",
+    "statsChannels": "Canaux de Distribution"
+  },
+  "benefits": {
+    "title": "Avantages Concurrentiels Clés",
+    "subtitle": "Fournir des solutions de distribution axées sur la technologie de pointe pour l'industrie hôtelière mondiale, favorisant la croissance des entreprises et la transformation numérique",
+    "benefit1": {
+      "title": "Couverture Omnicanal",
+      "description": "Intégrez plus de 150 canaux de distribution mondiaux avec une gestion d'inventaire unifiée pour maximiser l'exposition et les taux de conversion de réservation.",
+      "highlight": "150+ Canaux"
+    },
+    "benefit2": {
+      "title": "Intelligence des Revenus",
+      "description": "Stratégies de tarification dynamique alimentées par l'IA qui analysent les données du marché en temps réel pour optimiser les décisions de gestion des revenus.",
+      "highlight": "Alimenté par l'IA"
+    },
+    "benefit3": {
+      "title": "Automatisation Intelligente",
+      "description": "Processus opérationnels entièrement automatisés qui réduisent l'intervention manuelle de 90%, améliorant l'efficacité et la précision.",
+      "highlight": "90% Automatisation"
+    },
+    "benefit4": {
+      "title": "Partenariat Dédié",
+      "description": "Équipe de support professionnel 24/7 fournissant des solutions personnalisées et des conseils techniques.",
+      "highlight": "Support 24×7"
+    },
+    "stats": {
+      "satisfaction": "Satisfaction Client",
+      "revenue": "Croissance des Revenus",
+      "deployment": "Déploiement Rapide"
+    },
+    "statsDescription": {
+      "satisfaction": "Basé sur les retours de plus de 3 500 partenaires hôteliers",
+      "revenue": "Croissance moyenne en 6 mois",
+      "deployment": "Du contrat à l'exploitation complète"
+    }
+  },
+  "map": {
+    "title": "Réseau de Services Mondial",
+    "subtitle": "Notre réseau de distribution s'étend à travers le monde, offrant aux partenaires hôteliers des capacités d'accès au marché sans frontières",
+    "hotelsLabel": "Hôtels",
+    "partnersLabel": "Hôtels Partenaires",
+    "marketsLabel": "Marchés Couverts",
+    "stats": {
+      "countries": "Pays Desservis",
+      "hotels": "Hôtels Partenaires",
+      "channels": "Canaux Connectés",
+      "bookings": "Réservations Traitées"
+    },
+    "regionNames": {
+      "europe": "Europe",
+      "americas": "Amériques",
+      "asiaPacific": "Asie-Pacifique",
+      "middleEast": "Moyen-Orient"
+    },
+    "regionDescriptions": {
+      "europe": "Hub hôtelier de premier plan",
+      "americas": "Destinations d'affaires clés",
+      "asiaPacific": "Marchés de luxe émergents",
+      "middleEast": "Position de passerelle stratégique"
+    },
+    "regions": {
+      "northAmerica": "Amérique du Nord - 45 grandes villes, connectant des plateformes OTA premium et des clients corporatifs",
+      "europe": "Europe - 52 villes couvertes, intégration profonde avec les écosystèmes de réservation locaux",
+      "asiaPacific": "Asie-Pacifique - 38 nœuds stratégiques, se concentrant sur l'optimisation de l'expérience de réservation mobile",
+      "middleEast": "Moyen-Orient - 18 marchés principaux, fournissant des services de localisation multilingues",
+      "latinAmerica": "Amérique Latine - 27 marchés émergents, explorant des régions à fort potentiel de croissance"
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages Clients",
+    "subtitle": "Écoutez nos partenaires parler de la façon dont ils ont réalisé une croissance commerciale grâce à notre plateforme. Leur succès est notre meilleure preuve.",
+    "rating": "Évaluation Étoiles",
+    "trustTitle": "Pourquoi les Clients Nous Font Confiance",
+    "trustSubtitle": "Les données parlent d'elles-mêmes",
+    "trustStats": {
+      "satisfaction": "Satisfaction Client",
+      "rating": "Note Moyenne",
+      "support": "Support Client",
+      "uptime": "Disponibilité Système"
+    }
+  },
+  "contact": {
+    "title": "Prêt à Commencer Votre Parcours de Croissance Commerciale ?",
+    "subtitle": "Nous sommes impatients de discuter de la façon d'adapter la stratégie de distribution optimale pour votre hôtel. Contactez notre équipe d'experts via les canaux suivants, et créons le succès ensemble.",
+    "servicesTitle": "Notre Engagement de Service",
+    "features": {
+      "quickResponse": {
+        "title": "Réponse Rapide",
+        "description": "Réponse professionnelle sous 24 heures"
+      },
+      "customSolution": {
+        "title": "Solutions Personnalisées",
+        "description": "Adaptées à vos besoins spécifiques"
+      },
+      "security": {
+        "title": "Assurance Sécurité",
+        "description": "Sécurité des données de niveau entreprise"
+      },
+      "continuousSupport": {
+        "title": "Support Continu",
+        "description": "Support technique et commercial complet"
+      }
+    },
+    "ctaTitle": "Commencez Votre Parcours de Transformation Numérique Aujourd'hui",
+    "ctaSubtitle": "Rejoignez plus de 5 000 hôtels prospères et redéfinissons ensemble votre stratégie de distribution",
+    "ctaButton": "Commencer le Partenariat",
+    "ctaNote": "* Nous nous engageons à répondre à votre demande sous 24 heures avec des recommandations de solutions professionnelles"
+  },
+  "footer": {
+    "companyName": "LocusStay",
+    "companyDescription": "Plateforme technologique de distribution hôtelière leader mondial, fournissant des solutions de distribution intelligentes pour l'industrie hôtelière.",
+    "quickNav": "Navigation Rapide",
+    "socialMedia": "Réseaux Sociaux",
+    "copyright": "Tous droits réservés.",
+    "navigation": {
+      "home": "Accueil",
+      "products": "Produits",
+      "solutions": "Solutions",
+      "about": "À Propos"
+    }
+  }
+}

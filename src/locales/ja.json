@@ -1,0 +1,136 @@
+{
+  "navbar": {
+    "productAdvantages": "製品の利点",
+    "solutions": "ソリューション",
+    "customerCases": "顧客事例",
+    "aboutUs": "会社概要",
+    "partnerLogin": "パートナーログイン"
+  },
+  "hero": {
+    "title": "グローバルホテル流通の革命",
+    "subtitle": "最先端技術、データ洞察、比類のないグローバルネットワークを通じて、180以上の国と地域のホテルパートナーと接続。ホテルと旅行者の接続方法を変革します。",
+    "ctaButton": "主要な利点を探る",
+    "statsCountries": "国・地域",
+    "statsHotels": "パートナーホテル",
+    "statsChannels": "流通チャネル"
+  },
+  "benefits": {
+    "title": "主要競争優位性",
+    "subtitle": "グローバルホスピタリティ業界向けの最先端技術駆動流通ソリューションを提供し、ビジネス成長とデジタル変革を促進",
+    "benefit1": {
+      "title": "オムニチャネルカバレッジ",
+      "description": "150以上のグローバル流通チャネルを統合在庫管理で統合し、露出と予約転換率を最大化。",
+      "highlight": "150+チャネル"
+    },
+    "benefit2": {
+      "title": "収益インテリジェンス",
+      "description": "リアルタイムで市場データを分析し、収益管理の決定を最適化するAI駆動の動的価格戦略。",
+      "highlight": "AI駆動"
+    },
+    "benefit3": {
+      "title": "スマート自動化",
+      "description": "手動介入を90%削減し、効率性と精度を向上させる完全自動化運用プロセス。",
+      "highlight": "90%自動化"
+    },
+    "benefit4": {
+      "title": "専任パートナーシップ",
+      "description": "個別ソリューションと技術ガイダンスを提供する24/7プロフェッショナルサポートチーム。",
+      "highlight": "24×7サポート"
+    },
+    "stats": {
+      "satisfaction": "顧客満足度",
+      "revenue": "収益成長",
+      "deployment": "迅速導入"
+    },
+    "statsDescription": {
+      "satisfaction": "3,500以上のホテルパートナーからのフィードバックに基づく",
+      "revenue": "6か月以内の平均成長",
+      "deployment": "契約から完全運用まで"
+    }
+  },
+  "map": {
+    "title": "グローバルサービスネットワーク",
+    "subtitle": "当社の流通ネットワークは世界中に広がり、ホテルパートナーに国境のない市場アクセス能力を提供",
+    "hotelsLabel": "ホテル",
+    "partnersLabel": "パートナーホテル",
+    "marketsLabel": "カバー市場",
+    "stats": {
+      "countries": "サービス提供国",
+      "hotels": "パートナーホテル",
+      "channels": "接続チャネル",
+      "bookings": "処理予約"
+    },
+    "regionNames": {
+      "europe": "ヨーロッパ",
+      "americas": "アメリカ大陸",
+      "asiaPacific": "アジア太平洋",
+      "middleEast": "中東"
+    },
+    "regionDescriptions": {
+      "europe": "プレミアホスピタリティハブ",
+      "americas": "主要ビジネス目的地",
+      "asiaPacific": "新興ラグジュアリー市場",
+      "middleEast": "戦略的ゲートウェイ位置"
+    },
+    "regions": {
+      "northAmerica": "北米 - 45の主要都市、プレミアムOTAプラットフォームと法人顧客を接続",
+      "europe": "ヨーロッパ - 52都市カバレッジ、地域予約エコシステムとの深い統合",
+      "asiaPacific": "アジア太平洋 - 38の戦略拠点、モバイル予約体験最適化に焦点",
+      "middleEast": "中東 - 18の中核市場、多言語ローカライゼーションサービス提供",
+      "latinAmerica": "ラテンアメリカ - 27の新興市場、高成長潜在地域の開拓"
+    }
+  },
+  "testimonials": {
+    "title": "顧客の声",
+    "subtitle": "パートナーが当社プラットフォームを通じてビジネス成長を達成した方法をお聞きください。彼らの成功が私たちの最良の証明です。",
+    "rating": "星評価",
+    "trustTitle": "なぜ顧客が私たちを信頼するのか",
+    "trustSubtitle": "データが物語る",
+    "trustStats": {
+      "satisfaction": "顧客満足度",
+      "rating": "平均評価",
+      "support": "カスタマーサポート",
+      "uptime": "システム稼働時間"
+    }
+  },
+  "contact": {
+    "title": "ビジネス成長の旅を始める準備はできていますか？",
+    "subtitle": "お客様のホテルに最適な流通戦略をカスタマイズする方法について話し合うことを楽しみにしています。以下のチャネルを通じて専門チームにお問い合わせいただき、一緒に成功を創造しましょう。",
+    "servicesTitle": "私たちのサービスコミットメント",
+    "features": {
+      "quickResponse": {
+        "title": "迅速対応",
+        "description": "24時間以内の専門的回答"
+      },
+      "customSolution": {
+        "title": "カスタムソリューション",
+        "description": "お客様の特定のニーズに合わせて調整"
+      },
+      "security": {
+        "title": "セキュリティ保証",
+        "description": "エンタープライズグレードのデータセキュリティ"
+      },
+      "continuousSupport": {
+        "title": "継続的サポート",
+        "description": "包括的な技術・ビジネスサポート"
+      }
+    },
+    "ctaTitle": "今日からデジタル変革の旅を始めましょう",
+    "ctaSubtitle": "5,000以上の成功ホテルに参加し、一緒に流通戦略を再定義しましょう",
+    "ctaButton": "パートナーシップ開始",
+    "ctaNote": "* 24時間以内に専門的なソリューション推奨でお問い合わせにお答えすることをお約束します"
+  },
+  "footer": {
+    "companyName": "LocusStay",
+    "companyDescription": "ホスピタリティ業界にインテリジェント流通ソリューションを提供する、グローバル最先端ホテル流通技術プラットフォーム。",
+    "quickNav": "クイックナビゲーション",
+    "socialMedia": "ソーシャルメディア",
+    "copyright": "全著作権所有。",
+    "navigation": {
+      "home": "ホーム",
+      "products": "製品",
+      "solutions": "ソリューション",
+      "about": "会社概要"
+    }
+  }
+}

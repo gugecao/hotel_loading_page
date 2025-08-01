@@ -1,0 +1,136 @@
+{
+  "navbar": {
+    "productAdvantages": "产品优势",
+    "solutions": "解决方案",
+    "customerCases": "客户案例",
+    "aboutUs": "关于我们",
+    "partnerLogin": "合作伙伴登录"
+  },
+  "hero": {
+    "title": "革新全球酒店分销新纪元",
+    "subtitle": "覆盖全球180+个国家和地区的酒店伙伴，运用前沿科技、数据洞察与无与伦比的全球网络，彻底改变酒店与旅客的连接方式，开启分销格局的全新篇章。",
+    "ctaButton": "探索核心优势",
+    "statsCountries": "国家地区",
+    "statsHotels": "合作酒店",
+    "statsChannels": "分销渠道"
+  },
+  "benefits": {
+    "title": "核心竞争优势",
+    "subtitle": "为全球酒店业提供前沿技术驱动的分销解决方案，助力业务增长与数字化转型",
+    "benefit1": {
+      "title": "全渠道覆盖",
+      "description": "整合150+全球分销渠道，实现库存统一管理，最大化曝光度与预订转化率。",
+      "highlight": "150+ 渠道"
+    },
+    "benefit2": {
+      "title": "收益智能",
+      "description": "基于AI算法的动态定价策略，实时分析市场数据，优化收益管理决策。",
+      "highlight": "AI驱动"
+    },
+    "benefit3": {
+      "title": "智能自动化",
+      "description": "全自动化操作流程，减少90%人工干预，提升运营效率与准确性。",
+      "highlight": "零风险"
+    },
+    "benefit4": {
+      "title": "专属合作伙伴",
+      "description": "7×24小时专业支持团队，为您提供个性化解决方案与技术指导。",
+      "highlight": "7x24支持"
+    },
+    "stats": {
+      "satisfaction": "客户满意度",
+      "revenue": "收益增长",
+      "deployment": "快速部署"
+    },
+    "statsDescription": {
+      "satisfaction": "基于3,500+酒店合作伙伴反馈",
+      "revenue": "6个月内平均增长",
+      "deployment": "从签约到全面运营"
+    }
+  },
+  "map": {
+    "title": "全球服务网络",
+    "subtitle": "我们的分销网络遍布全球，为酒店合作伙伴提供无边界的市场接入能力",
+    "hotelsLabel": "酒店",
+    "partnersLabel": "合作酒店",
+    "marketsLabel": "覆盖市场",
+    "stats": {
+      "countries": "服务国家",
+      "hotels": "合作酒店",
+      "channels": "连接渠道",
+      "bookings": "预订处理"
+    },
+    "regionNames": {
+      "europe": "欧洲",
+      "americas": "美洲",
+      "asiaPacific": "亚太",
+      "middleEast": "中东"
+    },
+    "regionDescriptions": {
+      "europe": "顶级酒店业中心",
+      "americas": "关键商务目的地",
+      "asiaPacific": "新兴奢华市场",
+      "middleEast": "战略门户位置"
+    },
+    "regions": {
+      "northAmerica": "北美地区 - 45个主要城市，连接顶级OTA平台与企业客户",
+      "europe": "欧洲地区 - 52个城市覆盖，深度整合本地预订生态系统",
+      "asiaPacific": "亚太地区 - 38个战略节点，专注移动端预订体验优化",
+      "middleEast": "中东地区 - 18个核心市场，提供多语言本地化服务",
+      "latinAmerica": "拉美地区 - 27个新兴市场，开拓高增长潜力区域"
+    }
+  },
+  "testimonials": {
+    "title": "客户见证",
+    "subtitle": "听听我们的合作伙伴如何通过我们的平台实现业务增长，他们的成功就是我们最好的证明。",
+    "rating": "星评价",
+    "trustTitle": "为什么客户信任我们",
+    "trustSubtitle": "数据说明一切",
+    "trustStats": {
+      "satisfaction": "客户满意度",
+      "rating": "平均评分",
+      "support": "客户支持",
+      "uptime": "系统可用性"
+    }
+  },
+  "contact": {
+    "title": "准备好开启您的业务增长新篇章了吗？",
+    "subtitle": "我们乐于与您探讨如何为您的酒店量身定制最佳的分销策略。请通过以下方式联系我们的专家团队，让我们一起创造成功。",
+    "servicesTitle": "我们的服务承诺",
+    "features": {
+      "quickResponse": {
+        "title": "快速响应",
+        "description": "24小时内专业回复"
+      },
+      "customSolution": {
+        "title": "定制方案",
+        "description": "根据需求量身打造"
+      },
+      "security": {
+        "title": "安全保障",
+        "description": "企业级数据安全"
+      },
+      "continuousSupport": {
+        "title": "持续支持",
+        "description": "全程技术与商务支持"
+      }
+    },
+    "ctaTitle": "立即开始您的数字化转型之旅",
+    "ctaSubtitle": "加入5000+酒店的成功行列，让我们一起重新定义您的分销策略",
+    "ctaButton": "开始合作",
+    "ctaNote": "* 我们承诺在24小时内回复您的咨询，为您提供专业的解决方案建议"
+  },
+  "footer": {
+    "companyName": "LocusStay",
+    "companyDescription": "全球领先的酒店分销技术平台，为酒店业提供智能化分销解决方案。",
+    "quickNav": "快速导航",
+    "socialMedia": "社交媒体",
+    "copyright": "保留所有权利。",
+    "navigation": {
+      "home": "首页",
+      "products": "产品",
+      "solutions": "解决方案",
+      "about": "关于我们"
+    }
+  }
+}

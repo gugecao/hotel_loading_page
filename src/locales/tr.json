@@ -1,0 +1,136 @@
+{
+  "navbar": {
+    "productAdvantages": "Ürün Avantajları",
+    "solutions": "Çözümler",
+    "customerCases": "Müşteri Vakaları",
+    "aboutUs": "Hakkımızda",
+    "partnerLogin": "Partner Girişi"
+  },
+  "hero": {
+    "title": "Küresel Otel Dağıtımında Devrim",
+    "subtitle": "180'den fazla ülke ve bölgedeki otel ortaklarıyla son teknoloji, veri içgörüleri ve eşsiz bir küresel ağ aracılığıyla bağlantı kurun. Otellerin gezginlerle nasıl bağlantı kurduğunu dönüştürün.",
+    "ctaButton": "Temel Avantajları Keşfedin",
+    "statsCountries": "Ülke ve Bölgeler",
+    "statsHotels": "Partner Oteller",
+    "statsChannels": "Dağıtım Kanalları"
+  },
+  "benefits": {
+    "title": "Temel Rekabet Avantajları",
+    "subtitle": "Küresel otelcilik endüstrisi için son teknoloji odaklı dağıtım çözümleri sunarak, iş büyümesi ve dijital dönüşümü güçlendirme",
+    "benefit1": {
+      "title": "Omnichannel Kapsam",
+      "description": "Maruz kalma ve rezervasyon dönüşüm oranlarını maksimize etmek için birleşik envanter yönetimi ile 150'den fazla küresel dağıtım kanalını entegre edin.",
+      "highlight": "150+ Kanal"
+    },
+    "benefit2": {
+      "title": "Gelir Zekası",
+      "description": "Gelir yönetimi kararlarını optimize etmek için pazar verilerini gerçek zamanlı olarak analiz eden AI destekli dinamik fiyatlandırma stratejileri.",
+      "highlight": "AI Destekli"
+    },
+    "benefit3": {
+      "title": "Akıllı Otomasyon",
+      "description": "Manuel müdahaleyi %90 azaltan, verimliliği ve doğruluğu artıran tam otomatik operasyonel süreçler.",
+      "highlight": "%90 Otomasyon"
+    },
+    "benefit4": {
+      "title": "Özel Ortaklık",
+      "description": "Kişiselleştirilmiş çözümler ve teknik rehberlik sağlayan 7/24 profesyonel destek ekibi.",
+      "highlight": "24×7 Destek"
+    },
+    "stats": {
+      "satisfaction": "Müşteri Memnuniyeti",
+      "revenue": "Gelir Artışı",
+      "deployment": "Hızlı Dağıtım"
+    },
+    "statsDescription": {
+      "satisfaction": "3.500'den fazla otel ortağının geri bildirimlerine dayanarak",
+      "revenue": "6 ay içinde ortalama büyüme",
+      "deployment": "Sözleşmeden tam operasyona"
+    }
+  },
+  "map": {
+    "title": "Küresel Hizmet Ağı",
+    "subtitle": "Dağıtım ağımız dünya çapında uzanır, otel ortaklarına sınırsız pazar erişim yetenekleri sağlar",
+    "hotelsLabel": "Oteller",
+    "partnersLabel": "Partner Oteller",
+    "marketsLabel": "Kapsanan Pazarlar",
+    "stats": {
+      "countries": "Hizmet Verilen Ülkeler",
+      "hotels": "Partner Oteller",
+      "channels": "Bağlı Kanallar",
+      "bookings": "İşlenen Rezervasyonlar"
+    },
+    "regionNames": {
+      "europe": "Avrupa",
+      "americas": "Amerika",
+      "asiaPacific": "Asya Pasifik",
+      "middleEast": "Orta Doğu"
+    },
+    "regionDescriptions": {
+      "europe": "Birinci sınıf otelcilik merkezi",
+      "americas": "Temel iş destinasyonları",
+      "asiaPacific": "Gelişmekte olan lüks pazarlar",
+      "middleEast": "Stratejik geçit konumu"
+    },
+    "regions": {
+      "northAmerica": "Kuzey Amerika - 45 büyük şehir, premium OTA platformları ve kurumsal müşterileri bağlama",
+      "europe": "Avrupa - 52 şehir kapsamı, yerel rezervasyon ekosistemleriyle derin entegrasyon",
+      "asiaPacific": "Asya Pasifik - 38 stratejik düğüm, mobil rezervasyon deneyimi optimizasyonuna odaklanma",
+      "middleEast": "Orta Doğu - 18 temel pazar, çok dilli yerelleştirme hizmetleri sağlama",
+      "latinAmerica": "Latin Amerika - 27 gelişmekte olan pazar, yüksek büyüme potansiyeli olan bölgeleri keşfetme"
+    }
+  },
+  "testimonials": {
+    "title": "Müşteri Referansları",
+    "subtitle": "Ortaklarımızdan platformumuz aracılığıyla nasıl iş büyümesi elde ettiklerini dinleyin. Onların başarısı bizim en iyi kanıtımız.",
+    "rating": "Yıldız Değerlendirmesi",
+    "trustTitle": "Müşteriler Neden Bize Güveniyor",
+    "trustSubtitle": "Veriler kendileri için konuşuyor",
+    "trustStats": {
+      "satisfaction": "Müşteri Memnuniyeti",
+      "rating": "Ortalama Değerlendirme",
+      "support": "Müşteri Desteği",
+      "uptime": "Sistem Çalışma Süresi"
+    }
+  },
+  "contact": {
+    "title": "İş Büyüme Yolculuğunuza Başlamaya Hazır mısınız?",
+    "subtitle": "Oteliniz için optimal dağıtım stratejisini nasıl uyarlayacağımızı tartışmaya hevesliyiz. Aşağıdaki kanallar aracılığıyla uzman ekibimizle iletişime geçin ve birlikte başarı yaratın.",
+    "servicesTitle": "Hizmet Taahhüdümüz",
+    "features": {
+      "quickResponse": {
+        "title": "Hızlı Yanıt",
+        "description": "24 saat içinde profesyonel yanıt"
+      },
+      "customSolution": {
+        "title": "Özel Çözümler",
+        "description": "Özel ihtiyaçlarınıza göre uyarlanmış"
+      },
+      "security": {
+        "title": "Güvenlik Güvencesi",
+        "description": "Kurumsal düzeyde veri güvenliği"
+      },
+      "continuousSupport": {
+        "title": "Sürekli Destek",
+        "description": "Kapsamlı teknik ve iş desteği"
+      }
+    },
+    "ctaTitle": "Dijital Dönüşüm Yolculuğunuzu Bugün Başlatın",
+    "ctaSubtitle": "5.000'den fazla başarılı otele katılın ve dağıtım stratejinizi birlikte yeniden tanımlayın",
+    "ctaButton": "Ortaklığı Başlat",
+    "ctaNote": "* Sorgunuza 24 saat içinde profesyonel çözüm önerileriyle yanıt vermeyi taahhüt ediyoruz"
+  },
+  "footer": {
+    "companyName": "LocusStay",
+    "companyDescription": "Otelcilik endüstrisi için akıllı dağıtım çözümleri sağlayan küresel lider otel dağıtım teknoloji platformu.",
+    "quickNav": "Hızlı Navigasyon",
+    "socialMedia": "Sosyal Medya",
+    "copyright": "Tüm hakları saklıdır.",
+    "navigation": {
+      "home": "Ana Sayfa",
+      "products": "Ürünler",
+      "solutions": "Çözümler",
+      "about": "Hakkımızda"
+    }
+  }
+}

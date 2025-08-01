@@ -1,0 +1,136 @@
+{
+  "navbar": {
+    "productAdvantages": "Product Advantages",
+    "solutions": "Solutions",
+    "customerCases": "Customer Cases",
+    "aboutUs": "About Us",
+    "partnerLogin": "Partner Login"
+  },
+  "hero": {
+    "title": "Revolutionizing Global Hotel Distribution",
+    "subtitle": "Connect with hotel partners across 180+ countries and regions through cutting-edge technology, data insights, and an unparalleled global network. Transform how hotels connect with travelers and usher in a new era of hospitality distribution.",
+    "ctaButton": "Explore Core Advantages",
+    "statsCountries": "Countries & Regions",
+    "statsHotels": "Partner Hotels",
+    "statsChannels": "Distribution Channels"
+  },
+  "benefits": {
+    "title": "Core Competitive Advantages",
+    "subtitle": "Providing cutting-edge technology-driven distribution solutions for the global hospitality industry, empowering business growth and digital transformation",
+    "benefit1": {
+      "title": "Omnichannel Coverage",
+      "description": "Integrate 150+ global distribution channels with unified inventory management to maximize exposure and booking conversion rates.",
+      "highlight": "150+ Channels"
+    },
+    "benefit2": {
+      "title": "Revenue Intelligence",
+      "description": "AI-powered dynamic pricing strategies that analyze market data in real-time to optimize revenue management decisions.",
+      "highlight": "AI-Powered"
+    },
+    "benefit3": {
+      "title": "Smart Automation",
+      "description": "Fully automated operational processes that reduce manual intervention by 90%, enhancing efficiency and accuracy.",
+      "highlight": "90% Automation"
+    },
+    "benefit4": {
+      "title": "Dedicated Partnership",
+      "description": "24/7 professional support team providing personalized solutions and technical guidance.",
+      "highlight": "24×7 Support"
+    },
+    "stats": {
+      "satisfaction": "Customer Satisfaction",
+      "revenue": "Revenue Growth",
+      "deployment": "Quick Deployment"
+    },
+    "statsDescription": {
+      "satisfaction": "Based on 3,500+ hotel partner feedback",
+      "revenue": "Average growth within 6 months",
+      "deployment": "From contract to full operation"
+    }
+  },
+  "map": {
+    "title": "Global Service Network",
+    "subtitle": "Our distribution network spans the globe, providing hotel partners with borderless market access capabilities",
+    "hotelsLabel": "Hotels",
+    "partnersLabel": "Partner Hotels",
+    "marketsLabel": "Markets Covered",
+    "stats": {
+      "countries": "Countries Served",
+      "hotels": "Partner Hotels",
+      "channels": "Connected Channels",
+      "bookings": "Bookings Processed"
+    },
+    "regionNames": {
+      "europe": "Europe",
+      "americas": "Americas",
+      "asiaPacific": "Asia Pacific",
+      "middleEast": "Middle East"
+    },
+    "regionDescriptions": {
+      "europe": "Premier hospitality hub",
+      "americas": "Key business destinations",
+      "asiaPacific": "Emerging luxury markets",
+      "middleEast": "Strategic gateway location"
+    },
+    "regions": {
+      "northAmerica": "North America - 45 major cities, connecting premium OTA platforms and corporate clients",
+      "europe": "Europe - 52 city coverage, deep integration with local booking ecosystems",
+      "asiaPacific": "Asia Pacific - 38 strategic nodes, focusing on mobile booking experience optimization",
+      "middleEast": "Middle East - 18 core markets, providing multilingual localization services",
+      "latinAmerica": "Latin America - 27 emerging markets, exploring high-growth potential regions"
+    }
+  },
+  "testimonials": {
+    "title": "Customer Testimonials",
+    "subtitle": "Hear from our partners about how they achieved business growth through our platform. Their success is our best proof.",
+    "rating": "Star Rating",
+    "trustTitle": "Why Customers Trust Us",
+    "trustSubtitle": "Data speaks for itself",
+    "trustStats": {
+      "satisfaction": "Customer Satisfaction",
+      "rating": "Average Rating",
+      "support": "Customer Support",
+      "uptime": "System Uptime"
+    }
+  },
+  "contact": {
+    "title": "Ready to Begin Your Business Growth Journey?",
+    "subtitle": "We are eager to discuss how to tailor the optimal distribution strategy for your hotel. Contact our expert team through the following channels, and let us create success together.",
+    "servicesTitle": "Our Service Commitment",
+    "features": {
+      "quickResponse": {
+        "title": "Quick Response",
+        "description": "Professional reply within 24 hours"
+      },
+      "customSolution": {
+        "title": "Custom Solutions",
+        "description": "Tailored to your specific needs"
+      },
+      "security": {
+        "title": "Security Assurance",
+        "description": "Enterprise-grade data security"
+      },
+      "continuousSupport": {
+        "title": "Continuous Support",
+        "description": "Comprehensive technical and business support"
+      }
+    },
+    "ctaTitle": "Start Your Digital Transformation Journey Today",
+    "ctaSubtitle": "Join 5,000+ successful hotels and let us redefine your distribution strategy together",
+    "ctaButton": "Start Partnership",
+    "ctaNote": "* We commit to responding to your inquiry within 24 hours with professional solution recommendations"
+  },
+  "footer": {
+    "companyName": "LocusStay",
+    "companyDescription": "Global leading hotel distribution technology platform, providing intelligent distribution solutions for the hospitality industry.",
+    "quickNav": "Quick Navigation",
+    "socialMedia": "Social Media",
+    "copyright": "All rights reserved.",
+    "navigation": {
+      "home": "Home",
+      "products": "Products",
+      "solutions": "Solutions",
+      "about": "About"
+    }
+  }
+}

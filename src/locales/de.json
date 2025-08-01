@@ -1,0 +1,136 @@
+{
+  "navbar": {
+    "productAdvantages": "Produktvorteile",
+    "solutions": "Lösungen",
+    "customerCases": "Kundenfälle",
+    "aboutUs": "Über Uns",
+    "partnerLogin": "Partner-Anmeldung"
+  },
+  "hero": {
+    "title": "Revolutionierung der Globalen Hotelverteilung",
+    "subtitle": "Verbinden Sie sich mit Hotelpartnern in über 180 Ländern und Regionen durch modernste Technologie, Dateneinblicke und ein unvergleichliches globales Netzwerk. Transformieren Sie, wie Hotels sich mit Reisenden verbinden.",
+    "ctaButton": "Kernvorteile Entdecken",
+    "statsCountries": "Länder & Regionen",
+    "statsHotels": "Partner-Hotels",
+    "statsChannels": "Vertriebskanäle"
+  },
+  "benefits": {
+    "title": "Kernwettbewerbsvorteile",
+    "subtitle": "Bereitstellung modernster technologiegetriebener Vertriebslösungen für die globale Hotellerie, die Unternehmenswachstum und digitale Transformation fördern",
+    "benefit1": {
+      "title": "Omnichannel-Abdeckung",
+      "description": "Integrieren Sie über 150 globale Vertriebskanäle mit einheitlichem Bestandsmanagement, um Sichtbarkeit und Buchungskonversionsraten zu maximieren.",
+      "highlight": "150+ Kanäle"
+    },
+    "benefit2": {
+      "title": "Umsatz-Intelligenz",
+      "description": "KI-gestützte dynamische Preisstrategien, die Marktdaten in Echtzeit analysieren, um Umsatzmanagement-Entscheidungen zu optimieren.",
+      "highlight": "KI-Gestützt"
+    },
+    "benefit3": {
+      "title": "Intelligente Automatisierung",
+      "description": "Vollautomatisierte Betriebsprozesse, die manuelle Eingriffe um 90% reduzieren und Effizienz und Genauigkeit verbessern.",
+      "highlight": "90% Automatisierung"
+    },
+    "benefit4": {
+      "title": "Engagierte Partnerschaft",
+      "description": "24/7 professionelles Support-Team, das personalisierte Lösungen und technische Beratung bietet.",
+      "highlight": "24×7 Support"
+    },
+    "stats": {
+      "satisfaction": "Kundenzufriedenheit",
+      "revenue": "Umsatzwachstum",
+      "deployment": "Schnelle Bereitstellung"
+    },
+    "statsDescription": {
+      "satisfaction": "Basierend auf Feedback von über 3.500 Hotelpartnern",
+      "revenue": "Durchschnittliches Wachstum in 6 Monaten",
+      "deployment": "Vom Vertrag zum vollständigen Betrieb"
+    }
+  },
+  "map": {
+    "title": "Globales Servicenetzwerk",
+    "subtitle": "Unser Vertriebsnetzwerk erstreckt sich über den Globus und bietet Hotelpartnern grenzenlose Marktzugangsmöglichkeiten",
+    "hotelsLabel": "Hotels",
+    "partnersLabel": "Partner-Hotels",
+    "marketsLabel": "Abgedeckte Märkte",
+    "stats": {
+      "countries": "Bediente Länder",
+      "hotels": "Partner-Hotels",
+      "channels": "Verbundene Kanäle",
+      "bookings": "Verarbeitete Buchungen"
+    },
+    "regionNames": {
+      "europe": "Europa",
+      "americas": "Amerika",
+      "asiaPacific": "Asien-Pazifik",
+      "middleEast": "Naher Osten"
+    },
+    "regionDescriptions": {
+      "europe": "Erstklassiger Hotellerie-Hub",
+      "americas": "Wichtige Geschäftsdestinationen",
+      "asiaPacific": "Aufkommende Luxusmärkte",
+      "middleEast": "Strategische Gateway-Position"
+    },
+    "regions": {
+      "northAmerica": "Nordamerika - 45 Großstädte, Verbindung von Premium-OTA-Plattformen und Firmenkunden",
+      "europe": "Europa - 52 Städte abgedeckt, tiefe Integration mit lokalen Buchungsökosystemen",
+      "asiaPacific": "Asien-Pazifik - 38 strategische Knoten, Fokus auf mobile Buchungserfahrungsoptimierung",
+      "middleEast": "Naher Osten - 18 Kernmärkte, mehrsprachige Lokalisierungsdienste",
+      "latinAmerica": "Lateinamerika - 27 aufkommende Märkte, Erkundung von Regionen mit hohem Wachstumspotenzial"
+    }
+  },
+  "testimonials": {
+    "title": "Kundenstimmen",
+    "subtitle": "Hören Sie von unseren Partnern, wie sie durch unsere Plattform Geschäftswachstum erreicht haben. Ihr Erfolg ist unser bester Beweis.",
+    "rating": "Sterne-Bewertung",
+    "trustTitle": "Warum Kunden uns Vertrauen",
+    "trustSubtitle": "Daten sprechen für sich",
+    "trustStats": {
+      "satisfaction": "Kundenzufriedenheit",
+      "rating": "Durchschnittsbewertung",
+      "support": "Kundensupport",
+      "uptime": "System-Verfügbarkeit"
+    }
+  },
+  "contact": {
+    "title": "Bereit, Ihre Geschäftswachstumsreise zu Beginnen?",
+    "subtitle": "Wir freuen uns darauf, zu besprechen, wie wir die optimale Vertriebsstrategie für Ihr Hotel maßschneidern können. Kontaktieren Sie unser Expertenteam über die folgenden Kanäle, und lassen Sie uns gemeinsam Erfolg schaffen.",
+    "servicesTitle": "Unser Service-Engagement",
+    "features": {
+      "quickResponse": {
+        "title": "Schnelle Antwort",
+        "description": "Professionelle Antwort innerhalb von 24 Stunden"
+      },
+      "customSolution": {
+        "title": "Maßgeschneiderte Lösungen",
+        "description": "Angepasst an Ihre spezifischen Bedürfnisse"
+      },
+      "security": {
+        "title": "Sicherheitsgarantie",
+        "description": "Datensicherheit auf Unternehmensebene"
+      },
+      "continuousSupport": {
+        "title": "Kontinuierlicher Support",
+        "description": "Umfassender technischer und geschäftlicher Support"
+      }
+    },
+    "ctaTitle": "Starten Sie Heute Ihre Digitale Transformationsreise",
+    "ctaSubtitle": "Schließen Sie sich über 5.000 erfolgreichen Hotels an und lassen Sie uns gemeinsam Ihre Vertriebsstrategie neu definieren",
+    "ctaButton": "Partnerschaft Beginnen",
+    "ctaNote": "* Wir verpflichten uns, auf Ihre Anfrage innerhalb von 24 Stunden mit professionellen Lösungsempfehlungen zu antworten"
+  },
+  "footer": {
+    "companyName": "LocusStay",
+    "companyDescription": "Global führende Hotelvertriebstechnologie-Plattform, die intelligente Vertriebslösungen für die Hotellerie bereitstellt.",
+    "quickNav": "Schnellnavigation",
+    "socialMedia": "Soziale Medien",
+    "copyright": "Alle Rechte vorbehalten.",
+    "navigation": {
+      "home": "Start",
+      "products": "Produkte",
+      "solutions": "Lösungen",
+      "about": "Über Uns"
+    }
+  }
+}
