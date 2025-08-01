@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
 import { useRouter, usePathname } from 'next/navigation'
 
@@ -70,13 +69,10 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <Image
+              <img
                 src="/logo_180x78.png"
                 alt="LocusStay - 全球酒店分销平台"
-                width={180}
-                height={78}
                 className="h-10 w-auto"
-                priority
               />
             </Link>
           </div>
