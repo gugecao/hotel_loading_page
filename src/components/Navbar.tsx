@@ -98,12 +98,12 @@ export default function Navbar() {
               >
                 {t('customerCases')}
               </button>
-              <button
-                onClick={() => scrollToSection('about')}
+              <Link
+                href="/about"
                 className="text-gray-700 hover:text-primary transition-colors duration-200 px-3 py-2"
               >
                 {t('aboutUs')}
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -195,12 +195,13 @@ export default function Navbar() {
               >
                 {t('customerCases')}
               </button>
-              <button
-                onClick={() => scrollToSection('about')}
+              <Link
+                href="/about"
                 className="block w-full text-left px-3 py-2 text-gray-700 hover:text-primary transition-colors duration-200"
+                onClick={() => setIsMenuOpen(false)}
               >
                 {t('aboutUs')}
-              </button>
+              </Link>
               
               {/* 移动端按钮和语言选择器 */}
               <div className="pt-4 border-t border-gray-200 space-y-3">

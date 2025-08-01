@@ -6,6 +6,92 @@
     "aboutUs": "About Us",
     "partnerLogin": "Partner Login"
   },
+  "about": {
+    "hero": {
+      "title": "About LocusStay",
+      "subtitle": "Your Locus in a World of Possibilities. Be the center point in a world full of infinite possibilities.",
+      "ukBased": "Headquartered in the UK"
+    },
+    "story": {
+      "title": "It All Begins with Our Name: LocusStay",
+      "subtitle": "Our name is our philosophy",
+      "paragraph1": "Our name is our philosophy. \"Locus,\" in Latin, means \"place\" or \"center point.\" \"Stay\" represents the hospitality industry we are deeply rooted in. LocusStay was founded to provide every hotel worldwide with its absolute center in the digital marketing landscape.",
+      "paragraph2": "We are a technology company headquartered in the UK. We understand that in this rapidly changing global market, stability and reliability are crucial. Just as our geographical location serves as a hub connecting the world, our technology platform is committed to becoming your solid hub for connecting with global travelers.",
+      "paragraph3": "We have witnessed too many excellent hotels miss opportunities due to technological barriers. Therefore, we have brought together senior experts from the hotel industry and top technology architects, determined to create a powerful yet intuitive platform that allows you to start from one center point, precisely control the overall situation, and easily handle challenges."
+    },
+    "mission": {
+      "title": "Our Mission & Philosophy",
+      "statement": "Through leading intelligent distribution technology, help every hotel worldwide find its optimal positioning in the market, easily connect with the world, and maximize revenue and brand value."
+    },
+    "philosophy": {
+      "success": {
+        "title": "Partner Success is Our Success",
+        "description": "We are committed to being your \"success partner,\" ensuring that you not only use the platform but also use it to achieve your business goals."
+      },
+      "innovation": {
+        "title": "Innovation with Purpose",
+        "description": "Every feature we introduce must directly serve a clear purpose: improve your efficiency, increase revenue, or enhance customer experience."
+      },
+      "transparency": {
+        "title": "Radical Transparency",
+        "description": "Trust is built on openness and honesty. Our pricing models and data reports are clear and direct, with no hidden terms."
+      }
+    },
+    "technology": {
+      "title": "Our Technology Core",
+      "subtitle": "We transform the industry's most complex technology into the simplest operations at your fingertips.",
+      "engine": {
+        "title": "Intelligent Revenue Engine",
+        "description": "Our AI engine is your brain, continuously analyzing market data to provide precise navigation for your pricing strategy."
+      },
+      "platform": {
+        "title": "The Unified Locus",
+        "description": "This is your command center. Manage all channel rates, inventory, and bookings on one dashboard. All commands are issued from here, all information converges here, goodbye to chaos, eliminate overbooking."
+      },
+      "api": {
+        "title": "API-First Architecture",
+        "description": "Our platform has powerful connectivity, capable of seamlessly integrating with your existing PMS and other systems, ensuring your technology stack truly works as one."
+      }
+    },
+    "impact": {
+      "title": "Numbers Tell Our Story",
+      "subtitle": "Starting from our UK headquarters, our influence has reached globally. LocusStay is creating measurable value for thousands of hotel partners worldwide.",
+      "hotels": {
+        "label": "Partner Hotels",
+        "description": "From boutique design hotels to urban business hotels, our partners span the globe."
+      },
+      "countries": {
+        "label": "Countries Served",
+        "description": "Our service network covers six continents, truly achieving global connectivity."
+      },
+      "revenue": {
+        "label": "Average Revenue Increase",
+        "description": "Through our intelligent pricing and channel optimization, partners achieve an average 25% increase in online revenue."
+      },
+      "uptime": {
+        "label": "System Uptime",
+        "description": "We promise to provide enterprise-level stability and reliability, safeguarding your business."
+      }
+    },
+    "future": {
+      "title": "Defining Next-Generation Hotel Distribution Ecosystem",
+      "subtitle": "We believe connecting distribution channels is just the first step. The future of hospitality lies in personalized, sustainable, and seamlessly integrated customer experiences.",
+      "description": "Our technology blueprint always looks to the future, committed to upgrading LocusStay from a distribution center to a business intelligence center. We are actively exploring:",
+      "personalization": {
+        "title": "Hyper-Personalized Marketing",
+        "description": "Help hotels provide personalized services tailored to each guest."
+      },
+      "sustainability": {
+        "title": "Sustainability Tools",
+        "description": "Help hotels optimize resources to meet the needs of the new generation of travelers."
+      },
+      "ecosystem": {
+        "title": "Fully Open Ecosystem",
+        "description": "Create a \"super technology stack\" that can be selected on-demand and plug-and-play."
+      },
+      "conclusion": "We are not just building a platform; we are investing in the future of hospitality. We are committed to ensuring our partners always stay at the forefront of industry transformation."
+    }
+  },
   "hero": {
     "title": "Revolutionizing Global Hotel Distribution",
     "subtitle": "Connect with hotel partners across 180+ countries and regions through cutting-edge technology, data insights, and an unparalleled global network. Transform how hotels connect with travelers and usher in a new era of hospitality distribution.",
