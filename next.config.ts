@@ -10,6 +10,14 @@ const nextConfig: NextConfig = {
   // 压缩配置
   compress: true,
   
+  // 禁用图片优化，解决生产环境图片访问问题
+  images: {
+    unoptimized: true
+  },
+  
+  // 输出独立模式，提升生产性能
+  output: 'standalone',
+  
   // 生成站点地图
   generateBuildId: async () => {
     return 'hotel-distribution-platform-v1'
