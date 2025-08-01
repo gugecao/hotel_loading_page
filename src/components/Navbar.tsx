@@ -5,6 +5,19 @@ import Link from 'next/link'
 import { useTranslations, useLocale } from 'next-intl'
 import { useRouter, usePathname } from 'next/navigation'
 
+// 支持的语言列表 - 移到组件外部避免重渲染
+const languages = [
+  { code: 'zh', name: '中文', flag: '🇨🇳', country: 'China' },
+  { code: 'en', name: 'English', flag: '🇺🇸', country: 'United States' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷', country: 'France' },
+  { code: 'es', name: 'Español', flag: '🇪🇸', country: 'Spain' },
+  { code: 'it', name: 'Italiano', flag: '🇮🇹', country: 'Italy' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪', country: 'Germany' },
+  { code: 'tr', name: 'Türkçe', flag: '🇹🇷', country: 'Turkey' },
+  { code: 'ja', name: '日本語', flag: '🇯🇵', country: 'Japan' },
+  { code: 'th', name: 'ไทย', flag: '🇹🇭', country: 'Thailand' },
+]
+
 export default function Navbar() {
   const t = useTranslations('navbar')
   const locale = useLocale()
@@ -15,24 +28,11 @@ export default function Navbar() {
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false)
   const langMenuRef = useRef<HTMLDivElement>(null)
 
-  // 支持的语言列表 - 20个国家
-  const languages = [
-    { code: 'zh', name: '中文', flag: '🇨🇳', country: 'China' },
-    { code: 'en', name: 'English', flag: '🇺🇸', country: 'United States' },
-    { code: 'fr', name: 'Français', flag: '🇫🇷', country: 'France' },
-    { code: 'es', name: 'Español', flag: '🇪🇸', country: 'Spain' },
-    { code: 'it', name: 'Italiano', flag: '🇮🇹', country: 'Italy' },
-    { code: 'de', name: 'Deutsch', flag: '🇩🇪', country: 'Germany' },
-    { code: 'tr', name: 'Türkçe', flag: '🇹🇷', country: 'Turkey' },
-    { code: 'ja', name: '日本語', flag: '🇯🇵', country: 'Japan' },
-    { code: 'th', name: 'ไทย', flag: '🇹🇭', country: 'Thailand' },
-  ]
-
   // 设置当前语言显示
   useEffect(() => {
     const currentLanguage = languages.find(lang => lang.code === locale) || languages[0]
     setCurrentLang(currentLanguage)
-  }, [locale, languages])
+  }, [locale])
 
   const handleLanguageChange = (langCode: string) => {
     const newPath = pathname.replace(`/${locale}`, `/${langCode}`)

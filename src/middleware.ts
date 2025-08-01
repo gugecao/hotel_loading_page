@@ -6,5 +6,14 @@ export default createIntlMiddleware({
 })
 
 export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)']
+  matcher: [
+    // 匹配所有路径，但排除:
+    // - api 路由
+    // - _next/static (静态文件)
+    // - _next/image (图片优化)
+    // - favicon.ico
+    // - 图片文件 (.png, .jpg, .jpeg, .gif, .webp, .svg)
+    // - 其他静态资源 (.ico, .css, .js)
+    '/((?!api|_next/static|_next/image|favicon.ico|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js)$).*)'
+  ]
 }
