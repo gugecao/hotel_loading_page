@@ -39,8 +39,10 @@ export const config = {
     // - _next/static (静态文件)
     // - _next/image (图片优化)
     // - favicon.ico
+    // - sitemap.xml (SEO sitemap)
+    // - robots.txt (SEO robots)
     // - 图片文件 (.png, .jpg, .jpeg, .gif, .webp, .svg)
     // - 其他静态资源 (.ico, .css, .js)
-    '/((?!api|_next/static|_next/image|favicon.ico|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js)$).*)'
+    '/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js)$).*)'
   ]
 }
