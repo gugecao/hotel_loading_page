@@ -14,7 +14,7 @@ import { GOOGLE_CHECK_CONFIG, LOG_CONFIG } from '@/config/urlChecker';
  * @returns Promise<boolean> true 表示安全，false 表示在红名单中
  */
 export async function checkGoogleRedList(url: string): Promise<boolean> {
-  let lastError: any = null;
+  let lastError: unknown = null;
   
   // 重试机制
   for (let attempt = 1; attempt <= GOOGLE_CHECK_CONFIG.retries; attempt++) {
@@ -48,14 +48,15 @@ export async function checkGoogleRedList(url: string): Promise<boolean> {
       // code: "1001" 表示正常访问，"1002" 表示已被封禁
       return response.data?.statu === 'true' && response.data?.code === '1001';
       
-    } catch (error: any) {
+    } catch (error: unknown) {
       lastError = error;
       
       if (LOG_CONFIG.enableDetailedLogs) {
+        const errorInfo = error as { code?: string; response?: { status?: number } };
         console.warn(`Google check attempt ${attempt} failed for ${url}:`, {
-          message: error.message,
-          code: error.code,
-          status: error.response?.status
+          message: error instanceof Error ? error.message : 'Unknown error',
+          code: errorInfo.code,
+          status: errorInfo.response?.status
         });
       }
 
@@ -68,7 +69,8 @@ export async function checkGoogleRedList(url: string): Promise<boolean> {
 
   // 所有重试都失败了
   if (LOG_CONFIG.enableDetailedLogs) {
-    console.error(`Google red list check failed for ${url} after ${GOOGLE_CHECK_CONFIG.retries} attempts:`, lastError?.message);
+    console.error(`Google red list check failed for ${url} after ${GOOGLE_CHECK_CONFIG.retries} attempts:`, 
+      lastError instanceof Error ? lastError.message : 'Unknown error');
   } else if (LOG_CONFIG.enableErrorLogs) {
     console.error('Google red list check failed after multiple attempts');
   }

@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="378f373d-50ae-4664-9e3e-a4267e85dcc4" name="Changes" comment="Initial commit from Create Next App">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactGuide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactGuide.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/urlChecker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/urlChecker.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/SafeBrowsingCheck.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/googleRedListChecker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/googleRedListChecker.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/referrerCheck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/referrerCheck.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/referrerStorage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/referrerStorage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/urlSecurityChecker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/urlSecurityChecker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/urlAvailabilityChecker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/urlAvailabilityChecker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/urlHelper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/urlHelper.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753933737289</updated>
       <workItem from="1753933738398" duration="31459000" />
-      <workItem from="1754120904431" duration="5706000" />
+      <workItem from="1754120904431" duration="6961000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />

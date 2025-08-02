@@ -5,12 +5,18 @@
 
 import type { NextApiRequest } from 'next';
 
+interface RequestLike {
+  headers: {
+    [key: string]: string | string[] | undefined;
+  };
+}
+
 /**
  * 从请求对象中获取当前网站的根网址
- * @param req NextApiRequest 对象
+ * @param req NextApiRequest 对象或类似的请求对象
  * @returns 当前网站的根网址 (例如: https://example.com)
  */
-export function getCurrentSiteUrl(req: NextApiRequest): string {
+export function getCurrentSiteUrl(req: NextApiRequest | RequestLike): string {
   // 获取协议 - 优先使用代理头信息
   const forwardedProto = req.headers['x-forwarded-proto'] as string;
   const forwardedHost = req.headers['x-forwarded-host'] as string;
@@ -34,11 +40,11 @@ export function getCurrentSiteUrl(req: NextApiRequest): string {
 
 /**
  * 构建完整的URL
- * @param req NextApiRequest 对象
+ * @param req NextApiRequest 对象或类似的请求对象
  * @param path 路径 (例如: '/about')
  * @returns 完整的URL (例如: https://example.com/about)
  */
-export function buildFullUrl(req: NextApiRequest, path: string = ''): string {
+export function buildFullUrl(req: NextApiRequest | RequestLike, path: string = ''): string {
   const baseUrl = getCurrentSiteUrl(req);
   
   // 确保路径以 / 开头

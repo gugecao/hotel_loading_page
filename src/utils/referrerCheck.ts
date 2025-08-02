@@ -30,7 +30,7 @@ const getHeader = (request: NextRequest | IncomingMessage, name: string): string
       if (sourceReferer) {
         try {
           return decodeURIComponent(sourceReferer);
-        } catch (e) {
+        } catch {
           return sourceReferer;
         }
       }
@@ -44,7 +44,7 @@ const getHeader = (request: NextRequest | IncomingMessage, name: string): string
         if (sourceReferer) {
           return decodeURIComponent(sourceReferer);
         }
-      } catch (e) {
+      } catch {
         // 无法解析URL，忽略错误
       }
     }

@@ -12,7 +12,7 @@ import { AVAILABILITY_CHECK_CONFIG, LOG_CONFIG } from '@/config/urlChecker';
  * @returns Promise<boolean> 是否可用
  */
 export async function checkUrlAvailability(url: string): Promise<boolean> {
-  let lastError: any = null;
+  let lastError: unknown = null;
   
   // 重试机制
   for (let attempt = 1; attempt <= AVAILABILITY_CHECK_CONFIG.retries; attempt++) {
@@ -32,19 +32,20 @@ export async function checkUrlAvailability(url: string): Promise<boolean> {
       // 检查状态码是否表示成功
       return response.status >= 200 && response.status < 400;
       
-    } catch (error: any) {
+    } catch (error: unknown) {
       lastError = error;
       
       // 如果是重定向错误（3xx），也认为是可用的
-      if (error.response && error.response.status >= 300 && error.response.status < 400) {
+      const errorInfo = error as { response?: { status?: number }; code?: string };
+      if (errorInfo.response && errorInfo.response.status && errorInfo.response.status >= 300 && errorInfo.response.status < 400) {
         return true;
       }
       
       if (LOG_CONFIG.enableDetailedLogs) {
         console.warn(`URL availability check attempt ${attempt} failed for ${url}:`, {
-          message: error.message,
-          code: error.code,
-          status: error.response?.status
+          message: error instanceof Error ? error.message : 'Unknown error',
+          code: errorInfo.code,
+          status: errorInfo.response?.status
         });
       }
 
@@ -56,7 +57,8 @@ export async function checkUrlAvailability(url: string): Promise<boolean> {
   }
 
   if (LOG_CONFIG.enableDetailedLogs) {
-    console.error(`URL ${url} is not available after ${AVAILABILITY_CHECK_CONFIG.retries} attempts:`, lastError?.message);
+    console.error(`URL ${url} is not available after ${AVAILABILITY_CHECK_CONFIG.retries} attempts:`, 
+      lastError instanceof Error ? lastError.message : 'Unknown error');
   } else if (LOG_CONFIG.enableErrorLogs) {
     console.error(`URL availability check failed`);
   }

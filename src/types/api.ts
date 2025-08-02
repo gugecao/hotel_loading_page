@@ -11,7 +11,9 @@ export interface PlatformResponse {
 
 // 谷歌验证红名单接口响应类型
 export interface GoogleCheckResponse {
-  success: boolean;
+  statu?: string; // API返回的状态字段
+  code?: string;  // 状态码："1001"表示正常，"1002"表示被封禁
+  success?: boolean;
   data?: {
     status: number;
     message: string;
