@@ -46,9 +46,9 @@ export const metadata: Metadata = {
     description: process.env.NEXT_PUBLIC_OG_DESCRIPTION || 'LocusStay covers 180+ countries and regions, using cutting-edge technology and global networks to completely transform how hotels connect with travelers. 150+ distribution channels, AI-driven revenue optimization, helping 3,500+ hotel partners achieve +42% revenue growth.',
     images: [
       {
-        url: process.env.NEXT_PUBLIC_LOGO_URL || '/logo_180x78.png',
-        width: parseInt(process.env.NEXT_PUBLIC_LOGO_WIDTH || '180'),
-        height: parseInt(process.env.NEXT_PUBLIC_LOGO_HEIGHT || '78'),
+        url: process.env.NEXT_PUBLIC_LOGO_URL || '/logo.png',
+        width: 180,
+        height: 78,
         alt: process.env.NEXT_PUBLIC_LOGO_ALT || 'LocusStay - Global Hotel Distribution Platform',
       },
     ],
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     creator: process.env.NEXT_PUBLIC_TWITTER_CREATOR || '@LocusStay',
     title: process.env.NEXT_PUBLIC_TWITTER_TITLE || 'LocusStay - Revolutionizing Global Hotel Distribution',
     description: process.env.NEXT_PUBLIC_TWITTER_DESCRIPTION || 'LocusStay covers 180+ countries and regions, 150+ distribution channels, AI-driven revenue optimization, helping hotels achieve +42% revenue growth.',
-    images: [process.env.NEXT_PUBLIC_LOGO_URL || '/logo_180x78.png'],
+    images: [process.env.NEXT_PUBLIC_LOGO_URL || '/logo.png'],
   },
   robots: {
     index: process.env.NEXT_PUBLIC_ROBOTS_INDEX === 'true',
@@ -88,9 +88,9 @@ const jsonLd = {
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://locusstay.com',
   logo: {
     '@type': 'ImageObject',
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://locusstay.com'}${process.env.NEXT_PUBLIC_LOGO_URL || '/logo_180x78.png'}`,
-    width: parseInt(process.env.NEXT_PUBLIC_LOGO_WIDTH || '180'),
-    height: parseInt(process.env.NEXT_PUBLIC_LOGO_HEIGHT || '78')
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://locusstay.com'}${process.env.NEXT_PUBLIC_LOGO_URL || '/logo.png'}`,
+    width: 180,
+    height: 78
   },
   foundingDate: process.env.NEXT_PUBLIC_COMPANY_FOUNDED || '2020',
   knowsAbout: ['Hotel Distribution', 'Revenue Management', 'AI-Powered Pricing', 'Global Hotel Networks', 'Hospitality Technology'],
