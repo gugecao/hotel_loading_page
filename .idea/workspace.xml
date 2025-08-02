@@ -18,6 +18,7 @@
       <change afterPath="$PROJECT_DIR$/src/utils/urlSecurityChecker.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/utils/urlValidator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/zh.json" afterDir="false" />
     </list>
@@ -87,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753933737289</updated>
-      <workItem from="1753933738398" duration="28102000" />
+      <workItem from="1753933738398" duration="28707000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
