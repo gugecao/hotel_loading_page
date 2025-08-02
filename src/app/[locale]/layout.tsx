@@ -19,84 +19,84 @@ const locales = ['zh', 'en', 'fr', 'es', 'it', 'de', 'tr', 'ja', 'th'];
 
 export const metadata: Metadata = {
   title: {
-    default: "LocusStay - Revolutionizing Global Hotel Distribution",
-    template: "%s | LocusStay"
+    default: process.env.NEXT_PUBLIC_SITE_TITLE || "LocusStay - Revolutionizing Global Hotel Distribution",
+    template: process.env.NEXT_PUBLIC_SITE_TITLE_TEMPLATE || "%s | LocusStay"
   },
-  description: "LocusStay partners with hotels across 180+ countries and regions, using cutting-edge technology, data insights, and an unparalleled global network to completely transform how hotels connect with travelers.",
-  keywords: ["LocusStay", "Global Hotel Distribution", "Revenue Management", "OTA Channels", "Hotel Management System", "RevPAR Optimization", "AI-Driven Pricing", "Intelligent Automation Operations", "Hotel Technology", "Distribution Solutions"],
-  authors: [{ name: "LocusStay Team" }],
-  creator: "LocusStay",
-  publisher: "LocusStay",
-  applicationName: "LocusStay",
+  description: process.env.NEXT_PUBLIC_SITE_DESCRIPTION || "LocusStay partners with hotels across 180+ countries and regions, using cutting-edge technology, data insights, and an unparalleled global network to completely transform how hotels connect with travelers.",
+  keywords: process.env.NEXT_PUBLIC_SITE_KEYWORDS?.split(',') || ["LocusStay", "Global Hotel Distribution", "Revenue Management", "OTA Channels", "Hotel Management System", "RevPAR Optimization", "AI-Driven Pricing", "Intelligent Automation Operations", "Hotel Technology", "Distribution Solutions"],
+  authors: [{ name: process.env.NEXT_PUBLIC_SITE_AUTHOR || "LocusStay Team" }],
+  creator: process.env.NEXT_PUBLIC_SITE_CREATOR || "LocusStay",
+  publisher: process.env.NEXT_PUBLIC_SITE_PUBLISHER || "LocusStay",
+  applicationName: process.env.NEXT_PUBLIC_SITE_NAME || "LocusStay",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://locusstay.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://locusstay.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://locusstay.com',
-    siteName: 'LocusStay',
-    title: 'LocusStay - Revolutionizing Global Hotel Distribution',
-    description: 'LocusStay covers 180+ countries and regions, using cutting-edge technology and global networks to completely transform how hotels connect with travelers. 150+ distribution channels, AI-driven revenue optimization, helping 3,500+ hotel partners achieve +42% revenue growth.',
+    type: (process.env.NEXT_PUBLIC_OG_TYPE as 'website') || 'website',
+    locale: process.env.NEXT_PUBLIC_OG_LOCALE || 'en_US',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://locusstay.com',
+    siteName: process.env.NEXT_PUBLIC_OG_SITE_NAME || 'LocusStay',
+    title: process.env.NEXT_PUBLIC_OG_TITLE || 'LocusStay - Revolutionizing Global Hotel Distribution',
+    description: process.env.NEXT_PUBLIC_OG_DESCRIPTION || 'LocusStay covers 180+ countries and regions, using cutting-edge technology and global networks to completely transform how hotels connect with travelers. 150+ distribution channels, AI-driven revenue optimization, helping 3,500+ hotel partners achieve +42% revenue growth.',
     images: [
       {
-        url: '/logo_180x78.png',
-        width: 180,
-        height: 78,
-        alt: 'LocusStay - Global Hotel Distribution Platform',
+        url: process.env.NEXT_PUBLIC_LOGO_URL || '/logo_180x78.png',
+        width: parseInt(process.env.NEXT_PUBLIC_LOGO_WIDTH || '180'),
+        height: parseInt(process.env.NEXT_PUBLIC_LOGO_HEIGHT || '78'),
+        alt: process.env.NEXT_PUBLIC_LOGO_ALT || 'LocusStay - Global Hotel Distribution Platform',
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
-    site: '@LocusStay',
-    creator: '@LocusStay',
-    title: 'LocusStay - Revolutionizing Global Hotel Distribution',
-    description: 'LocusStay covers 180+ countries and regions, 150+ distribution channels, AI-driven revenue optimization, helping hotels achieve +42% revenue growth.',
-    images: ['/logo_180x78.png'],
+    card: (process.env.NEXT_PUBLIC_TWITTER_CARD as 'summary_large_image') || 'summary_large_image',
+    site: process.env.NEXT_PUBLIC_TWITTER_SITE || '@LocusStay',
+    creator: process.env.NEXT_PUBLIC_TWITTER_CREATOR || '@LocusStay',
+    title: process.env.NEXT_PUBLIC_TWITTER_TITLE || 'LocusStay - Revolutionizing Global Hotel Distribution',
+    description: process.env.NEXT_PUBLIC_TWITTER_DESCRIPTION || 'LocusStay covers 180+ countries and regions, 150+ distribution channels, AI-driven revenue optimization, helping hotels achieve +42% revenue growth.',
+    images: [process.env.NEXT_PUBLIC_LOGO_URL || '/logo_180x78.png'],
   },
   robots: {
-    index: true,
-    follow: true,
+    index: process.env.NEXT_PUBLIC_ROBOTS_INDEX === 'true',
+    follow: process.env.NEXT_PUBLIC_ROBOTS_FOLLOW === 'true',
     googleBot: {
-      index: true,
-      follow: true,
+      index: process.env.NEXT_PUBLIC_ROBOTS_INDEX === 'true',
+      follow: process.env.NEXT_PUBLIC_ROBOTS_FOLLOW === 'true',
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
   },
   verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
-    yahoo: 'your-yahoo-verification-code',
+    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || 'your-google-verification-code',
+    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || 'your-yandex-verification-code',
+    yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION || 'your-yahoo-verification-code',
   },
 };
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'LocusStay',
-  alternateName: 'LocusStay Global Hotel Distribution Platform',
-  description: 'LocusStay partners with hotels across 180+ countries and regions, using cutting-edge technology, data insights, and an unparalleled global network to completely transform how hotels connect with travelers',
-  url: 'https://locusstay.com',
+  name: process.env.NEXT_PUBLIC_SITE_NAME || 'LocusStay',
+  alternateName: `${process.env.NEXT_PUBLIC_SITE_NAME || 'LocusStay'} Global Hotel Distribution Platform`,
+  description: process.env.NEXT_PUBLIC_SITE_DESCRIPTION || 'LocusStay partners with hotels across 180+ countries and regions, using cutting-edge technology, data insights, and an unparalleled global network to completely transform how hotels connect with travelers',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://locusstay.com',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://locusstay.com/logo_180x78.png',
-    width: 180,
-    height: 78
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://locusstay.com'}${process.env.NEXT_PUBLIC_LOGO_URL || '/logo_180x78.png'}`,
+    width: parseInt(process.env.NEXT_PUBLIC_LOGO_WIDTH || '180'),
+    height: parseInt(process.env.NEXT_PUBLIC_LOGO_HEIGHT || '78')
   },
-  foundingDate: '2020',
+  foundingDate: process.env.NEXT_PUBLIC_COMPANY_FOUNDED || '2020',
   knowsAbout: ['Hotel Distribution', 'Revenue Management', 'AI-Powered Pricing', 'Global Hotel Networks', 'Hospitality Technology'],
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'service@locusstay.com',
+    email: process.env.NEXT_PUBLIC_COMPANY_EMAIL || 'service@locusstay.com',
     contactType: 'customer service',
     availableLanguage: ['Chinese', 'English', 'Japanese', 'Korean', 'French', 'German', 'Spanish'],
   },
@@ -183,8 +183,8 @@ const jsonLd = {
     }
   ],
   sameAs: [
-    'https://linkedin.com/company/locusstay',
-    'https://twitter.com/locusstay',
+    process.env.NEXT_PUBLIC_COMPANY_LINKEDIN || 'https://linkedin.com/company/locusstay',
+    process.env.NEXT_PUBLIC_COMPANY_TWITTER || 'https://twitter.com/locusstay',
   ],
   offers: {
     '@type': 'Service',
@@ -199,10 +199,10 @@ const jsonLd = {
   },
   aggregateRating: {
     '@type': 'AggregateRating',
-    ratingValue: '4.8',
-    ratingCount: '3500',
-    bestRating: '5',
-    worstRating: '1'
+    ratingValue: process.env.NEXT_PUBLIC_RATING_VALUE || '4.8',
+    ratingCount: process.env.NEXT_PUBLIC_RATING_COUNT || '3500',
+    bestRating: process.env.NEXT_PUBLIC_RATING_BEST || '5',
+    worstRating: process.env.NEXT_PUBLIC_RATING_WORST || '1'
   }
 }
 

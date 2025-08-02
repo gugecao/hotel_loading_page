@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="378f373d-50ae-4664-9e3e-a4267e85dcc4" name="Changes" comment="Initial commit from Create Next App">
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/urlChecker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/SafeBrowsingCheck.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/arrayUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/googleRedListChecker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/referrerCheck.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/referrerStorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/urlAvailabilityChecker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/urlFileManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/urlHelper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/urlSecurityChecker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/urlValidator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/zh.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +55,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jasonyu/workspace/web/react/hotel_loading_page/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jasonyu/workspace/web/react/hotel_loading_page/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,6 +67,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/config" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -70,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753933737289</updated>
-      <workItem from="1753933738398" duration="23335000" />
+      <workItem from="1753933738398" duration="28102000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
