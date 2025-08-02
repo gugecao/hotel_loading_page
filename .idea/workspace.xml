@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="378f373d-50ae-4664-9e3e-a4267e85dcc4" name="Changes" comment="Initial commit from Create Next App">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/googleRedListChecker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/googleRedListChecker.ts" afterDir="false" />
-    </list>
+    <list default="true" id="378f373d-50ae-4664-9e3e-a4267e85dcc4" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753933737289</updated>
       <workItem from="1753933738398" duration="31459000" />
-      <workItem from="1754120904431" duration="7104000" />
+      <workItem from="1754120904431" duration="7712000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -111,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754051918424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1754141492914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754141492914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit from Create Next App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit from Create Next App" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

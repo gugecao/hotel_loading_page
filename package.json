@@ -6,7 +6,17 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pm2:start": "pm2 start ecosystem.config.js --env production",
+    "pm2:stop": "pm2 stop hotel-loading-page",
+    "pm2:restart": "pm2 restart hotel-loading-page",
+    "pm2:reload": "pm2 reload hotel-loading-page",
+    "pm2:delete": "pm2 delete hotel-loading-page",
+    "pm2:logs": "pm2 logs hotel-loading-page",
+    "pm2:monit": "pm2 monit",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:dev": "./scripts/deploy.sh dev",
+    "deploy:prod": "./scripts/deploy.sh prod"
   },
   "dependencies": {
     "axios": "^1.11.0",
