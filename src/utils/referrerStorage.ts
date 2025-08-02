@@ -9,9 +9,12 @@ const isClient = typeof window !== 'undefined';
 // 检查是否来自Google搜索
 export const isFromGoogleSearch = (referer: string | null): boolean => {
   if (!referer) return false;
-  return referer.includes('google.com/search') || 
+  return referer === 'google' || 
+         referer === 'google.com' ||
+         referer.includes('google.com/search') || 
          referer.includes('google.co') || 
-         referer.includes('.google.');
+         referer.includes('.google.') ||
+         referer.startsWith('google.');
 };
 
 // 设置Google来源标记，带5分钟过期时间

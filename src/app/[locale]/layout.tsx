@@ -2,16 +2,11 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "../globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -37,45 +32,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
-  openGraph: {
-    type: (process.env.NEXT_PUBLIC_OG_TYPE as 'website') || 'website',
-    locale: process.env.NEXT_PUBLIC_OG_LOCALE || 'en_US',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://locusstay.com',
-    siteName: process.env.NEXT_PUBLIC_OG_SITE_NAME || 'LocusStay',
-    title: process.env.NEXT_PUBLIC_OG_TITLE || 'LocusStay - Revolutionizing Global Hotel Distribution',
-    description: process.env.NEXT_PUBLIC_OG_DESCRIPTION || 'LocusStay covers 180+ countries and regions, using cutting-edge technology and global networks to completely transform how hotels connect with travelers. 150+ distribution channels, AI-driven revenue optimization, helping 3,500+ hotel partners achieve +42% revenue growth.',
-    images: [
-      {
-        url: process.env.NEXT_PUBLIC_LOGO_URL || '/logo.png',
-        width: 180,
-        height: 78,
-        alt: process.env.NEXT_PUBLIC_LOGO_ALT || 'LocusStay - Global Hotel Distribution Platform',
-      },
-    ],
-  },
-  twitter: {
-    card: (process.env.NEXT_PUBLIC_TWITTER_CARD as 'summary_large_image') || 'summary_large_image',
-    site: process.env.NEXT_PUBLIC_TWITTER_SITE || '@LocusStay',
-    creator: process.env.NEXT_PUBLIC_TWITTER_CREATOR || '@LocusStay',
-    title: process.env.NEXT_PUBLIC_TWITTER_TITLE || 'LocusStay - Revolutionizing Global Hotel Distribution',
-    description: process.env.NEXT_PUBLIC_TWITTER_DESCRIPTION || 'LocusStay covers 180+ countries and regions, 150+ distribution channels, AI-driven revenue optimization, helping hotels achieve +42% revenue growth.',
-    images: [process.env.NEXT_PUBLIC_LOGO_URL || '/logo.png'],
-  },
   robots: {
-    index: process.env.NEXT_PUBLIC_ROBOTS_INDEX === 'true',
-    follow: process.env.NEXT_PUBLIC_ROBOTS_FOLLOW === 'true',
+    index: true,
+    follow: true,
     googleBot: {
-      index: process.env.NEXT_PUBLIC_ROBOTS_INDEX === 'true',
-      follow: process.env.NEXT_PUBLIC_ROBOTS_FOLLOW === 'true',
+      index: true,
+      follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || 'your-google-verification-code',
-    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || 'your-yandex-verification-code',
-    yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION || 'your-yahoo-verification-code',
   },
 };
 
@@ -182,10 +148,6 @@ const jsonLd = {
       name: 'Australia'
     }
   ],
-  sameAs: [
-    process.env.NEXT_PUBLIC_COMPANY_LINKEDIN || 'https://linkedin.com/company/locusstay',
-    process.env.NEXT_PUBLIC_COMPANY_TWITTER || 'https://twitter.com/locusstay',
-  ],
   offers: {
     '@type': 'Service',
     name: 'LocusStay Global Hotel Distribution Service',
@@ -237,7 +199,7 @@ export default async function LocaleLayout({
         <meta name="theme-color" content="#003580" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
         </NextIntlClientProvider>

@@ -35,14 +35,12 @@
   - `getRandomItem()` - 从数组中随机选择一个元素
   - `shuffleArray()` - 随机打乱数组顺序
 
-- **`SafeBrowsingCheck.ts`** - SafeBrowsing 检查器（已存在）
 
 ### 配置管理
 
 - **`../config/urlChecker.ts`** - URL 检查器配置文件
   - `GOOGLE_CHECK_CONFIG` - 谷歌红名单检查配置
   - `AVAILABILITY_CHECK_CONFIG` - URL 可用性检查配置
-  - `SAFE_BROWSING_CONFIG` - SafeBrowsing 检查配置
   - `FILE_PATHS` - 文件路径配置
   - `LOG_CONFIG` - 日志配置
   - `validateConfig()` - 配置验证函数
@@ -226,7 +224,6 @@ pages/api/urls.ts
 ├── @/utils/urlFileManager
 │   └── @/utils/urlValidator
 ├── @/utils/urlSecurityChecker
-│   ├── @/utils/SafeBrowsingCheck
 │   ├── @/utils/googleRedListChecker
 │   │   ├── @/utils/urlValidator
 │   │   └── @/config/urlChecker

@@ -22,11 +22,6 @@ export const AVAILABILITY_CHECK_CONFIG = {
   retryDelay: 500 // 重试延迟（毫秒）
 };
 
-// SafeBrowsing 检查配置
-export const SAFE_BROWSING_CONFIG = {
-  timeout: 6000, // 6秒超时
-  retries: 1 // 重试1次
-};
 
 // 文件路径配置
 export const FILE_PATHS = {

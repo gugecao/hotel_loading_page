@@ -13,9 +13,11 @@ export const isFromGoogleSearch = (referer: string | null): boolean => {
   if (!referer) return false;
   // 检查是否是直接的google标记或包含google搜索域名
   return referer === 'google' || 
+         referer === 'google.com' ||
          referer.includes('google.com/search') || 
          referer.includes('google.co') || 
-         referer.includes('.google.');
+         referer.includes('.google.') ||
+         referer.startsWith('google.');
 };
 
 // 安全地获取请求中的头部信息

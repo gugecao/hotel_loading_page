@@ -46,7 +46,7 @@ export async function checkGoogleRedList(url: string): Promise<boolean> {
 
       // 检查响应状态
       // code: "1001" 表示正常访问，"1002" 表示已被封禁
-      return response.data.statu === 'true' && response.data.code === '1001';
+      return response.data?.statu === 'true' && response.data?.code === '1001';
       
     } catch (error: any) {
       lastError = error;

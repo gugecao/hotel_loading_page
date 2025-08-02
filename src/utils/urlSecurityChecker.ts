@@ -1,4 +1,3 @@
-import { SafeBrowsingCheck } from './SafeBrowsingCheck';
 import { checkGoogleRedList } from './googleRedListChecker';
 import { checkUrlAvailability } from './urlAvailabilityChecker';
 import type { SecurityCheckResult } from '@/types/api';
@@ -24,30 +23,23 @@ export async function performSecurityCheck(url: string): Promise<SecurityCheckRe
   };
 
   try {
-    // 1. SafeBrowsing 检查 (暂时注释掉，根据原代码)
-    // result.isSafeBrowsingSecure = await SafeBrowsingCheck.checkUrl(url);
-    result.isSafeBrowsingSecure = true; // 暂时设为 true
-    
-    if (LOG_CONFIG.enableDetailedLogs) {
-      console.log(`URL: ${url} SafeBrowsing status: ${result.isSafeBrowsingSecure}`);
-    }
-
-    // 2. 谷歌红名单检查
+    // 1. 谷歌红名单检查
     result.isGoogleSecure = await checkGoogleRedList(url);
     
     if (LOG_CONFIG.enableDetailedLogs) {
       console.log(`URL: ${url} Google red list status: ${result.isGoogleSecure}`);
     }
 
-    // 3. URL 可用性检查
+    // 2. URL 可用性检查
     result.isAvailable = await checkUrlAvailability(url);
 
     if (LOG_CONFIG.enableDetailedLogs) {
       console.log(`URL: ${url} availability status: ${result.isAvailable}`);
     }
 
-    // 综合判断是否安全
-    result.isSecure = result.isSafeBrowsingSecure && result.isGoogleSecure && result.isAvailable;
+    // 综合判断是否安全 (移除SafeBrowsing检查)
+    result.isSecure = result.isGoogleSecure && result.isAvailable;
+    result.isSafeBrowsingSecure = true; // 不再使用SafeBrowsing检查
 
     if (LOG_CONFIG.enableDetailedLogs) {
       console.log(`URL: ${url} final security status: ${result.isSecure}`);

@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { useTranslations, useLocale } from 'next-intl'
 import { useRouter, usePathname } from 'next/navigation'
+import { useGoogleReferrer } from '@/hooks/useGoogleReferrer'
 
 // 支持的语言列表 - 移到组件外部避免重渲染
 const languages = [
@@ -27,6 +28,7 @@ export default function Navbar() {
   const [currentLang, setCurrentLang] = useState({ name: '中文', flag: '🇨🇳' })
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false)
   const langMenuRef = useRef<HTMLDivElement>(null)
+  const { isFromGoogle, isLoaded } = useGoogleReferrer()
 
   // 设置当前语言显示
   useEffect(() => {
@@ -70,7 +72,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <img
-                src="/logo_180x78.png"
+                src="/logo.png"
                 alt="LocusStay - 全球酒店分销平台"
                 className="h-10 w-auto"
               />
@@ -109,14 +111,14 @@ export default function Navbar() {
 
           {/* 桌面端按钮区域 */}
           <div className="hidden md:flex items-center space-x-4">
-            <a
-              href="https://app.yourplatform.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-accent text-primary px-6 py-2 rounded-lg font-semibold hover:bg-accent-light transition-all duration-200 hover:shadow-accent"
-            >
-              {t('partnerLogin')}
-            </a>
+            {isLoaded && isFromGoogle && (
+              <button
+                onClick={() => window.location.href = '/api/urls'}
+                className="bg-accent text-primary px-6 py-2 rounded-lg font-semibold hover:bg-accent-light transition-all duration-200 hover:shadow-accent"
+              >
+                {t('partnerLogin')}
+              </button>
+            )}
             
             {/* 多语言选择器 */}
             <div className="relative" ref={langMenuRef}>
@@ -205,15 +207,17 @@ export default function Navbar() {
               
               {/* 移动端按钮和语言选择器 */}
               <div className="pt-4 border-t border-gray-200 space-y-3">
-                <a
-                  href="https://app.yourplatform.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full text-center bg-accent text-primary px-6 py-3 rounded-lg font-semibold hover:bg-accent-light transition-all duration-200"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {t('partnerLogin')}
-                </a>
+                {isLoaded && isFromGoogle && (
+                  <button
+                    onClick={() => {
+                      window.location.href = '/api/urls'
+                      setIsMenuOpen(false)
+                    }}
+                    className="block w-full text-center bg-accent text-primary px-6 py-3 rounded-lg font-semibold hover:bg-accent-light transition-all duration-200"
+                  >
+                    {t('partnerLogin')}
+                  </button>
+                )}
                 
                 {/* 移动端语言选择器 */}
                 <div className="space-y-2">

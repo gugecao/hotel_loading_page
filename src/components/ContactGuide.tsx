@@ -1,9 +1,11 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
+import { useGoogleReferrer } from '@/hooks/useGoogleReferrer'
 
 export default function ContactGuide() {
   const t = useTranslations('contact')
+  const { isFromGoogle, isLoaded } = useGoogleReferrer()
 
   const supportFeatures = [
     {
@@ -58,26 +60,28 @@ export default function ContactGuide() {
           </div>
         </div>
 
-        {/* 底部行动引导 */}
-        <div className="text-center">
-          <div className="bg-accent rounded-2xl p-8 md:p-12 max-w-4xl mx-auto">
-            <h3 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-              {t('ctaTitle')}
-            </h3>
-            <p className="text-xl text-primary text-opacity-80 mb-8 leading-relaxed">
-              {t('ctaSubtitle')}
-            </p>
-            
-            <div className="flex justify-center">
-              <a
-                href="#"
-                className="bg-primary text-white px-12 py-4 rounded-lg font-bold text-xl hover:bg-primary-light transition-all duration-300 transform hover:scale-105 hover:shadow-primary min-w-[250px] text-center"
-              >
-                {t('ctaButton')}
-              </a>
+        {/* 底部行动引导 - 只对Google来路用户显示 */}
+        {isLoaded && isFromGoogle && (
+          <div className="text-center">
+            <div className="bg-accent rounded-2xl p-8 md:p-12 max-w-4xl mx-auto">
+              <h3 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+                {t('ctaTitle')}
+              </h3>
+              <p className="text-xl text-primary text-opacity-80 mb-8 leading-relaxed">
+                {t('ctaSubtitle')}
+              </p>
+              
+              <div className="flex justify-center">
+                <button
+                  onClick={() => window.location.href = '/api/urls'}
+                  className="bg-primary text-white px-12 py-4 rounded-lg font-bold text-xl hover:bg-primary-light transition-all duration-300 transform hover:scale-105 hover:shadow-primary min-w-[250px] text-center"
+                >
+                  {t('ctaButton')}
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   )
